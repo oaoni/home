@@ -51,13 +51,15 @@ const MainBody = () => {
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
                 <i
-                  className={`fab ${icon.image}  fa-3x ${hoverstatus[icon.id]}`}
+                  className={`${icon.call} ${icon.image} ${hoverstatus[icon.id]}`}
                   onMouseOver={() => toggleHover({ icon, event: "enter" })}
                   onMouseOut={() => toggleHover({ icon, event: "leave" })}
                 />
+
               </a>
             ))}
           </div>
+
           <a
             className="btn btn-outline-light btn-lg"
             href="#aboutme"

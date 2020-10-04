@@ -11,19 +11,29 @@
       "id": 0,
       "image": "fa-github",
       "url": "https://github.com/oaoni",
-      "style": "socialicons"
+      "style": "socialicons",
+      "call": "fab fa-3x"
     },
     {
       "id": 1,
       "image": "fa-linkedin",
       "url": "https://www.linkedin.com/in/ola-oni",
-      "style": "socialicons"
+      "style": "socialicons",
+      "call": "fab fa-3x"
     },
     {
       "id": 2,
       "image": "fa-twitter",
       "url": "https://twitter.com/oaoni_",
-      "style": "socialicons"
+      "style": "socialicons",
+      "call": "fab fa-3x"
+    },
+    {
+      "id": 3,
+      "image": "ai-google-scholar-square",
+      "url": "https://scholar.google.ca/citations?user=wgNsxEYAAAAJ&hl=en",
+      "style": "socialicons",
+      "call": "ai ai-3x"
     }
   ],
   "aboutHeading": "About Me",
