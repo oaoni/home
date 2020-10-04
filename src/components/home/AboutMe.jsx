@@ -42,6 +42,7 @@ const AboutMe = () => {
   };
 
   return (
+    <div  class="container-fluid p-0">
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
         <div className="row">
@@ -74,6 +75,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

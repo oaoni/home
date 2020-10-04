@@ -34,9 +34,12 @@ const MainBody = () => {
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-1">
+          <h1 className="display-1" id="name">
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
+          <div class="subheading mb-5">New York, NY &middot;
+            <a href="mailto:olo4002@med.cornell.edu" id="email"> olo4002 @ med.cornell.edu</a>
+          </div>
           <Typist className="lead"> {devDesc}</Typist>
           <div className="p-5">
             {icons.map((icon) => (
