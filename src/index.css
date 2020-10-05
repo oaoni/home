@@ -27,13 +27,13 @@ code {
 }
 
 #email {
-  color: black;
+  color: #2c2f33;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 25rem;
+    padding-left: 22rem;
   }
 }
 
@@ -43,12 +43,12 @@ code {
   text-transform: uppercase;
 }
 
-#navlink {
-  color: white;
-}
 
-#navlink:hover {
-  color: grey;
+
+@media (max-width: 992px) {
+  #navlink:hover {
+    color: grey;
+  }
 }
 
 @media (min-width: 992px) {
@@ -59,8 +59,9 @@ code {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    width: 22rem;
     height: 100vh;
+    background-color: #292b2c;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -89,7 +90,16 @@ code {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  #navlink {
+    color: white;
+  }
+  #navlink:hover {
+    color: grey;
+  }
 }
+
+
+
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;

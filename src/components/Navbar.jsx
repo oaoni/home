@@ -18,10 +18,10 @@ const Navbar = (props) => {
 
   return (
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top"  id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">
-          <a className="navbar-brand" href="#home">
+          <a className="navbar-brand text-dark" href="#home">
             {`<${FirstName} ${LastName} />`}
           </a>
         </span>
