@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Pdf from "../editable-stuff/resume.pdf";
-import Profile from "../editable-stuff/img/profile.png";
+import Profile from "../editable-stuff/img/profile.jpg";
 import { showBlog, FirstName, LastName } from "../editable-stuff/configurations.json";
 
 
